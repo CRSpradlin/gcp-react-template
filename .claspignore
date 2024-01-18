@@ -1,0 +1,13 @@
+# ignore all files…
+**/**
+
+!appsscript.json
+
+# don't ignore transpiled code
+!dist/**.*
+
+dist/main.js
+
+# ignore even valid files if in…
+.git/**
+node_modules/**
